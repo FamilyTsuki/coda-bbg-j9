@@ -33,13 +33,6 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    margin: 0% 1vw 0% 1vw;
-}
-
 footer {
     width: 100%;
     margin: 0%;
@@ -55,4 +48,11 @@ footer p.cla {
     width: 7vw;
     margin: auto;
     font-weight: 600;
+}
+#home {
+    text-align: center;
+    background-color: red;
+}
+#img_cimetery {
+     z-index: -1;
 }
