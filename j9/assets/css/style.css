@@ -9,6 +9,13 @@ header div{
     align-items: center;
     justify-content: space-around;
 }
+#home {
+    text-align: center;
+    background-color: red;
+}
+#img_cimetery {
+     z-index: -1;
+}
 footer {
     text-align: center;
     background-color: blue;
