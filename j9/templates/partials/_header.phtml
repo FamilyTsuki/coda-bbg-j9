@@ -2,8 +2,21 @@
 require "data/homepage-data.php";
 ?>
 <header>    
-<img src="assets/images/<?php echo $data["logo"]?>" alt="">
-<h1>
-    <?php echo $data["name"]  ?>
-</h1>
+    <img src="assets/images/<?php echo $data["logo"]?>" alt="">
+    <h1>
+        <?php echo $data["name"]  ?>
+    </h1>
+    <div>
+        
+        <?php
+        
+            foreach ($data["links"] as $value) {
+                ?>
+                <a href="bobo.pxp">
+                    <?php echo $value;?>
+                </a>
+        <?php } ?>
+        
+        
+    </div>
 </header>

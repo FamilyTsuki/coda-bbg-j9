@@ -1,6 +1,14 @@
 header {
     background-color: aqua;
 }
+header image{
+    text-align: center;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 footer {
     text-align: center;
     background-color: blue;
