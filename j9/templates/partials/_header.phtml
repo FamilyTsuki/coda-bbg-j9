@@ -3,20 +3,10 @@ require "data/homepage-data.php";
 ?>
 <header>    
     <img src="assets/images/<?php echo $data["logo"]?>" alt="">
-    <h1>
+    <p class = "cla">
         <?php echo $data["name"]  ?>
-    </h1>
-    <div>
-        
-        <?php
-        
-            foreach ($data["links"] as $value) {
-                ?>
-                <a href="bobo.pxp">
-                    <?php echo $value;?>
-                </a>
-        <?php } ?>
-        
-        
-    </div>
+    </p>
+    <nav>
+    <?php require "_nav.phtml"; ?>
+</nav>
 </header>
